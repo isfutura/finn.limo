@@ -1,2 +1,0 @@
-# finn.limo
-landing page
