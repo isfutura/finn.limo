@@ -11,3 +11,12 @@ li {
   margin-left: 0px;
   margin-bottom: 0px;
 }
+
+li::before {
+  content: "→ ";
+}
+
+p, li {
+  font-family: "Times New Roman", serif;
+  font-size: 14pt;
+}
