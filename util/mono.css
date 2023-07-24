@@ -1,4 +1,22 @@
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/atkinson/Atkinson-Hyperlegible-Regular-102.woff"), url("fonts/atkinson/Atkinson-Hyperlegible-Bold-102.woff"), url("fonts/atkinson/Atkinson-Hyperlegible-BoldItalic-102.woff"), url("fonts/atkinson/Atkinson-Hyperlegible-Italic-102.woff");
+}
+
 body {
-  font-family: monospace;
-  font-size: 5em;
+  font-family: "Atkinson Hyperlegible";
+  font-size: 7vw;
+  color: aquamarine;
+  background-color: #000;
+
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  margin-top: 0px;
 }

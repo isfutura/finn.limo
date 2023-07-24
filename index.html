@@ -10,32 +10,12 @@
 
   <title>:)</title>
 </head>
-<body><div id="field">
-  </div>
-  <script>
-    let field = document.querySelector("#field");
-
-    const sent = "all work and no play makes jack a dull boy";
-    const words = sent.split(" ");
-
-    function append(text) {
-      field.textContent += text;
-    }
-
-    let counter = 0;
-    let limit = 0;
-
-    setInterval(() => {
-      if (limit !== 130) {
-        append(words[counter] + " ");
-
-        if (counter === 9) {
-          counter = 0;
-        } else counter++;
-
-        limit++
-      }
-    }, 50);
-  </script>
+<body>
+  <p>
+    Finn Greiter is a human from Earth.
+  </p>
+  <p>
+    You can contact him via <a href="mailto:finn@finn.limo">email</a>.
+  </p>
 </body>
 </html>
