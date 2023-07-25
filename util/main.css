@@ -1,26 +1,40 @@
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("fonts/atkinson/Atkinson-Hyperlegible-Regular-102.woff"), url("fonts/atkinson/Atkinson-Hyperlegible-Bold-102.woff"), url("fonts/atkinson/Atkinson-Hyperlegible-BoldItalic-102.woff"), url("fonts/atkinson/Atkinson-Hyperlegible-Italic-102.woff");
+}
+
+body {
+  font-family: "Atkinson Hyperlegible";
+  font-size: 5em;
+  color: aquamarine;
+  background-color: #000;
+
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 a {
-  text-decoration: underline;
+  color: inherit;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0px;
+p {
+  margin-top: 0px;
 }
 
-li {
-  margin-left: 0px;
-  margin-bottom: 0px;
+@media (max-width: 1200px) {
+  body {
+    font-size: 7vw;
+
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
-li::before {
-  content: "→ ";
-}
-
-p, li {
-  font-family: "Times New Roman", serif;
-  font-size: 14pt;
-}
-
-.socials {
-  font-size: 20pt;
-}
+/* @media (min-width: 1500px) {
+  body {
+    font-size: 5em;
+  }
+} */
